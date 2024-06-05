@@ -1,0 +1,47 @@
+/* 
+    CSS Manual 
+
+    1.  Universal Styles (Normalize)
+
+ */
+
+/* 1. ---Universal Styles--- */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+    Basic guidelines - adjusts images, videos to fit container dimensions ---
+*/
+
+img,
+embed,
+object,
+video,
+picture {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
